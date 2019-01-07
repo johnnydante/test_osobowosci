@@ -1,0 +1,158 @@
+body {
+	background-color: #003333;
+	color: lightgray;
+}
+
+#przelicz {
+	position: absolute;
+	margin-top: 700px;
+	width: 100px;
+    position: absolute;
+    left: 49%;
+    margin-left: -51px;
+}
+
+#container {
+	margin: auto;
+}
+
+#left-container {
+	margin-top: 100px;
+	float: left;
+	padding: 10px;
+	color: lightgray;
+	width: 25%;
+	z-index: 100;
+}
+
+#right-container {
+	margin-top: 100px;
+	float: left;
+	padding: 10px;
+	color: lightgray;
+	width: 25%;
+	z-index: 100;
+}
+
+#middle-container {
+	color: lightgray;
+	margin-right: auto;
+	margin-left: auto;
+	width: 650px;
+}
+
+#zalety {
+	float: left;
+	padding-left: 30%;
+}
+
+#wady {
+	float: right;
+	padding-right: 30%;
+}
+
+#middle {
+	width: 50%;
+	float: left;
+	height: 800px;
+}
+
+#left-part {
+	float: left;
+	width: 125px;
+	margin-top: 300px;
+	text-align: center;
+}
+
+#right-part {
+	float: left;
+	width: 125px;
+	margin-top: 300px;
+	text-align: center;
+}
+
+#chart-container {
+	float: left;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	color: lightgray;
+	width: 400px;
+	height: 420px;
+}
+
+.group {
+	color: #191919;
+	opacity: 0.5;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	box-shadow: 0px 0px 5px #414141;
+}
+
+.group p {
+	font-size: 50px;
+	margin-top: 60px;
+}
+
+#green {
+	margin-bottom: 20px;
+	background-color: #358E23;
+	float: left;
+}
+
+#red {
+	margin-top: 20px;
+	background-color: #aa0000;
+	float: right;
+}
+
+
+#blue {
+	margin-top: 20px;
+	background-color: #005ce6;
+	float: left;
+}
+
+
+#yellow {
+	margin-bottom: 20px;
+	background-color: #ddcc00;
+	float: right;
+}
+
+.group .colorWord {
+	width: 200px;
+	position: absolute;
+	color: lightgray;
+	font-wweight: bold;
+	text-align: center;
+	font-size: 27px;
+	opacity: 0;
+}
+
+.group .colorWord:hover {
+	opacity: 1;
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
