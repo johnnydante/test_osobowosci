@@ -3,6 +3,16 @@ body {
 	color: lightgray;
 }
 
+#main {
+	position: absolute;
+	color: lightgray;
+	font-size: 40px;
+	font-style: bold;
+	right: 0;
+	margin-right: 300px;
+	top: 20px;
+}
+
 #przelicz {
 	position: absolute;
 	margin-top: 650px;

@@ -77,6 +77,9 @@
 <body>
 <form method="POST">
 	<div id="container">
+	<div id="main">
+		Wybierz cechy, które posiadasz
+	</div>
 		<div id="middle">
 			<div id="middle-container">
 				<div id="left-part">
@@ -168,7 +171,8 @@
 				onclick= "$('#wady').hide();
 						$('#odkryj').show();
 						$('#reset').hide();
-						$('#ukryj').hide();"
+						$('#ukryj').hide();
+						$('#main').hide();"
 				>
 					Ukryj cechy
 				</button>
@@ -185,7 +189,8 @@
 			onclick="$('#odkryj').hide();
 					$('#wady').show();
 					$('#reset').show();
-					$('#ukryj').show()">
+					$('#ukryj').show();
+					$('#main').show();">
 				Odkryj cechy
 			</button>
 			<div id="wady">
