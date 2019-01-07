@@ -5,10 +5,34 @@ body {
 
 #przelicz {
 	position: absolute;
-	margin-top: 700px;
+	margin-top: 650px;
 	width: 100px;
     position: absolute;
-    left: 49%;
+    left: 29%;
+    margin-left: -51px;
+}
+
+#ukryj {
+	position: absolute;
+	width: 170px;
+    right: 250px;
+	top: 83%;
+    margin-left: -51px;
+}
+
+#reset {
+	position: absolute;
+	width: 150px;
+    right: 700px;
+	top: 83%;
+    margin-left: -51px;
+}
+
+#odkryj {
+	position: absolute;
+	width: 170px;
+    right: 150px;
+	top: 83%;
     margin-left: -51px;
 }
 
@@ -30,7 +54,7 @@ body {
 	float: left;
 	padding: 10px;
 	color: lightgray;
-	width: 25%;
+	width: 40%;
 	z-index: 100;
 }
 
@@ -42,17 +66,34 @@ body {
 }
 
 #zalety {
+	margin-left: 10%;
 	float: left;
 	padding-left: 30%;
+	padding-right: 20px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height:800px !important;
+	min-width:348px;
+	position:relative;
+	left:3px;
 }
 
 #wady {
 	float: right;
+	margin-right: 100px;
 	padding-right: 30%;
+	padding-right: 20px;
+	padding-left: 20px;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	height:750px !important;
+	min-width:248px;
+	position:relative;
+	left:3px;
 }
 
 #middle {
-	width: 50%;
+	width: 60%;
 	float: left;
 	height: 800px;
 }
@@ -84,7 +125,7 @@ body {
 
 .group {
 	color: #191919;
-	opacity: 0.5;
+	opacity: 0.4;
 	width: 200px;
 	height: 200px;
 	border-radius: 100px;
@@ -94,6 +135,25 @@ body {
 .group p {
 	font-size: 50px;
 	margin-top: 60px;
+}
+
+.group:hover{
+	filter: brightness(60%);
+	cursor: pointer;
+}
+
+.group .colorWord {
+	width: 200px;
+	position: absolute;
+	color: white;
+	font-wweight: bold;
+	text-align: center;
+	font-size: 27px;
+	opacity: 0;
+}
+
+.colorWord:hover {
+	opacity: 1;
 }
 
 #green {
@@ -122,37 +182,29 @@ body {
 	float: right;
 }
 
-.group .colorWord {
-	width: 200px;
-	position: absolute;
-	color: lightgray;
-	font-wweight: bold;
-	text-align: center;
-	font-size: 27px;
-	opacity: 0;
+#yellow .up {
+	margin-left: 10px;
 }
 
-.group .colorWord:hover {
-	opacity: 1;
+#red .up {
+	margin-left: 10px;
 }
 
+#green .up {
+	margin-left: 5px;
+}
 
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+#blue .up {
+	margin-left: 5px;
 }
 
 
-
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
