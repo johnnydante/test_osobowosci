@@ -15,7 +15,7 @@ body {
 
 #przelicz {
 	position: absolute;
-	margin-top: 650px;
+	margin-top: 630px;
 	width: 100px;
     position: absolute;
     left: 29%;
@@ -106,6 +106,7 @@ body {
 	width: 60%;
 	float: left;
 	height: 800px;
+	margin-top: 30px;
 }
 
 #left-part {
